@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu>
+<food id="1" type="sweet">
+    <name>Belgian Waffles</name>
+    <price>$5.95</price>
+    <description>
+   Two of our famous Belgian Waffles with plenty of real maple syrup
+    </description>
+    <calories>650</calories>
+    <ingredients>
+      <ingredient>
+        <type>flour</type>
+        <amount>100g</amount>
+      </ingredient>
+      <ingredient>
+        <type>egg</type>
+        <amount>1</amount>
+      </ingredient>
+      <ingredient>
+        <type>milk</type>
+        <amount>100ml</amount>
+      </ingredient>
+      <ingredient>
+        <type>sugar</type>
+        <amount>10g</amount>
+      </ingredient>
+      <ingredient>
+        <type>maple syrup</type>
+        <amount>10ml</amount>
+      </ingredient>
+    </ingredients>
+</food>
+<food id="2" type="sweet">
+    <name>Strawberry Belgian Waffles</name>
+    <price>$7.95</price>
+    <description>
+    Light Belgian waffles covered with strawberries and whipped cream
+    </description>
+    <calories>900</calories>
+    <ingredients>
+      <ingredient>
+        <type>flour</type>
+        <amount>100g</amount>
+      </ingredient>
+      <ingredient>
+        <type>egg</type>
+        <amount>1</amount>
+      </ingredient>
+      <ingredient>
+        <type>milk</type>
+        <amount>100ml</amount>
+      </ingredient>
+      <ingredient>
+        <type>sugar</type>
+        <amount>10g</amount>
+      </ingredient>
+      <ingredient>
+        <type>strawberries</type>
+        <amount>30g</amount>
+      </ingredient>
+      <ingredient>
+        <type>heavy cream</type>
+        <amount>30ml</amount>
+      </ingredient>
+    </ingredients>
+</food>
+<food id="3" type="sweet">
+    <name>Berry-Berry Belgian Waffles</name>
+    <price>$8.95</price>
+    <description>
+    Belgian waffles covered with assorted fresh berries and whipped cream
+    </description>
+    <calories>900</calories>
+    <ingredients>
+      <ingredient>
+        <type>flour</type>
+        <amount>100g</amount>
+      </ingredient>
+      <ingredient>
+        <type>egg</type>
+        <amount>1</amount>
+      </ingredient>
+      <ingredient>
+        <type>milk</type>
+        <amount>100ml</amount>
+      </ingredient>
+      <ingredient>
+        <type>sugar</type>
+        <amount>10g</amount>
+      </ingredient>
+      <ingredient>
+        <type>berries</type>
+        <amount>50g</amount>
+      </ingredient>
+    </ingredients>
+</food>
+<food id="4" type="savoury">
+    <name>French Toast</name>
+    <price>$4.50</price>
+    <description>
+    Thick slices made from our homemade sourdough bread
+    </description>
+    <calories>600</calories>
+    <ingredients>
+      <ingredient>
+        <type>Sourdough Bread</type>
+        <amount>100g</amount>
+      </ingredient>
+      <ingredient>
+        <type>egg</type>
+        <amount>3</amount>
+      </ingredient>
+      <ingredient>
+        <type>sour cream</type>
+        <amount>100ml</amount>
+      </ingredient>
+    </ingredients>
+</food>
+<food id="5" type="savoury">
+    <name>Homestyle Breakfast</name>
+    <price>$6.95</price>
+    <description>
+    Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+    </description>
+    <calories>950</calories>
+    <ingredients>
+      <ingredient>
+        <type>Bread</type>
+        <amount>100g</amount>
+      </ingredient>
+      <ingredient>
+        <type>egg</type>
+        <amount>3</amount>
+      </ingredient>
+      <ingredient>
+        <type>bacon</type>
+        <amount>50g</amount>
+      </ingredient>
+      <ingredient>
+        <type>sausage</type>
+        <amount>50g</amount>
+      </ingredient>
+      <ingredient>
+        <type>potato</type>
+        <amount>100g</amount>
+      </ingredient>
+    </ingredients>
+</food>
+</breakfast_menu>

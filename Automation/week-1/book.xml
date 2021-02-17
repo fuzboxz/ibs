@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book id="1">
+        <title>Asdfasdf ASDFAS</title>
+        <firstname>ASDFasdf</firstname>
+        <lastname>ASDfasd</lastname>
+        <publication_date>2020-01-01</publication_date>
+        <description>asdfasdfas</description>
+        <publisher_name>AGdfsdfgwe</publisher_name>
+        <language>AGfdgeg</language>
+        <isbn>11111111111111</isbn>
+        <quotes>
+            <quote>asdagasdg</quote>
+            <quote>asdgdaf</quote>
+            <quote>agdffgsdfgsd</quote>
+        </quotes>
+    </book>
+    <book id="2">
+        <title>Asdfasdf ASDFAS</title>
+        <firstname>ASDFasdf</firstname>
+        <lastname>ASDfasd</lastname>
+        <publication_date>2020-01-01</publication_date>
+        <description>asdfasdfas</description>
+        <publisher_name>AGdfsdfgwe</publisher_name>
+        <language>AGfdgeg</language>
+        <isbn>11111111111111</isbn>
+        <quotes>
+            <quote>asdagasdg</quote>
+            <quote>asdgdaf</quote>
+            <quote>agdffgsdfgsd</quote>
+        </quotes>
+    </book>
+    <book id="3">
+        <title>Asdfasdf ASDFAS</title>
+        <firstname>ASDFasdf</firstname>
+        <lastname>ASDfasd</lastname>
+        <publication_date>2020-01-01</publication_date>
+        <description>asdfasdfas</description>
+        <publisher_name>AGdfsdfgwe</publisher_name>
+        <language>AGfdgeg</language>
+        <isbn>11111111111111</isbn>
+        <quotes>
+            <quote>asdagasdg</quote>
+            <quote>asdgdaf</quote>
+            <quote>agdffgsdfgsd</quote>
+        </quotes>
+    </book>
+</books>
