@@ -1,0 +1,139 @@
+.headerlink{
+	font-weight: 400; 
+	color: rgb(2, 184, 117); 
+	fill: rgb(2,184, 117); 
+	text-decoration: none;
+}
+
+.headerlink:visited{
+	color: rgb(2, 184, 117); 
+	fill: rgb(2,184, 117); 
+}
+
+.author{
+	width: 48px;
+	height: 48px;
+	margin-right: 16px;
+	border-radius: 50%;
+	float: left;
+	display: block;
+}
+
+.follow,.follow:visited{
+	margin-left: 10px;
+	border: solid 1px rgb(41, 41, 41);
+	border-radius: 4px;
+	padding: 0px 8px;
+	line-height: 20px;
+	display: inline-block;
+	color: rgb(41, 41, 41);
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.authorbox{
+	margin-top: 32px;
+	margin-bottom: 16px;
+	height: 48px;
+	line-height: 20px;
+	color: rgb(117, 117, 117);
+}
+
+.authorname{
+	color: rgb(41, 41, 41);
+}
+
+article .content p {
+	font-size: 21px;
+	font-style: italic;
+	margin-top: 2em;
+	line-height: 32px;
+	margin-bottom: -0.46em;
+	letter-spacing: -0.003em;
+}
+
+article a, article a:visited {
+	color: rgb(41, 41, 41);
+	font-weight: 700;
+}
+
+footer{
+	color: rgba(117, 117, 117);
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer h3 {
+	color: rgb(255, 255, 255);
+	margin-bottom: 15px;
+}
+
+footer .tank div{
+	padding-right: 20px;
+}
+
+footer .container{
+	max-width: 85%;
+}
+
+footer .baseline {
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+}
+
+footer .baseline img{
+	float: left;
+}
+
+footer .baseline div{
+	display: flex;
+	float: right;
+	width: 25%;
+	justify-content: space-between;
+}
+
+footer .tank{
+	display: flex;
+	border-bottom: 1px solid rgb(117, 117, 117);
+	padding-bottom: 40px;
+	margin-bottom: 32px;
+}
+
+h1{
+	line-height: 60px;
+	margin-top:0.55em;
+	font-size: 48px;
+}
+
+h2{
+	font-size: 24px;
+	color: rgb(117, 117, 117);
+	font-family: 'Open Sans', sans-serif;
+}
+
+article{
+	max-width: 680px;
+	padding-bottom: 30px;
+}
+
+section{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div{
+	box-sizing: inherit;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Playfair Display', serif;
+}
+
+footer{
+	padding: 60px 0px;
+	background-color: rgba(0, 0, 0, 0.9);
+	display: flex;
+	justify-content: center;
+}
