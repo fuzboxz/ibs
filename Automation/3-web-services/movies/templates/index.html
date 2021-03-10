@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Movies and stuff</title>
+    </head>
+    <body>
+        <h1>Very good movies... and stuff</h1>
+        <ul>
+            {%for i in range(0, len)%}
+            <li><a href="{{movies[i]}}">{{movies[i]}}</a></a></li>
+            {%endfor%}
+        </ul>
+    </body>
+</html>
