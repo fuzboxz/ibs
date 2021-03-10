@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Products</title>
+    </head>
+    <body>
+        <h1>Products</h1>
+        <a href="/search">Search for product</a>
+        <br/>
+        ID - Name - Price - Quantity 
+        <ul> 
+        {% for product in products %}
+            <li>{{product.id}} - {{product.name}} - {{product.price}} - {{product.qty}}</li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
