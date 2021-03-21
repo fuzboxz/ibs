@@ -7,7 +7,9 @@ class AmazonSpider(scrapy.Spider):
     start_urls = ['https://www.amazon.com/s?k=kindle']
 
     def parse(self, response):
-        name = response.css('.a-size-medium::text').extract()
-        rating = response.css('.a-icon-star-small > .a-icon-alt::text').extract()
-        price = response.css('.a-price > .a-offscreen::text').extract()
-        yield {'item-name': name, 'item-price': price, 'item-rating': rating}
+        for item in response.css('.sg-col-inner'):
+            name = item.css('.a-size-medium::text').extract()
+            rating = item.css('.a-icon-star-small > .a-icon-alt::text').extract()
+            price = item.css('.a-price > .a-offscreen::text').extract()
+            if len(name) != 0 and len(rating) != 0 and len(price) != 0:
+                yield {'item-name': name, 'item-price': price, 'item-rating': rating}
